@@ -7,7 +7,7 @@ OBJECTS := $(patsubst %.cpoint, %.o, $(SRC))
 
 CPOINTFLAGS=-c -target-triplet $(TARGET)
 
-all: libstd.a
+all: lib.a
 
 lib.a: $(OBJECTS)
 	ar -rc $@ $^
