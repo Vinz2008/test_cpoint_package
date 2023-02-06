@@ -1,0 +1,4 @@
+import @std/print.cpoint
+func test(x : double){
+  printd(x)
+}
