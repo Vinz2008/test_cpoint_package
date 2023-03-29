@@ -16,5 +16,4 @@ lib.a: $(OBJECTS)
 	$(CCPOINT) $(CPOINTFLAGS) $< -o $@
 
 clean:
-	make -C c_api clean
 	rm -f ./*.o ./*.a ./*.ll ./*.log ./*.temp

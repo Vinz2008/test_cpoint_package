@@ -1,0 +1,12 @@
+[project]
+name = "test_cpoint_package"
+homepage = "https://github.com/Vinz2008/test_cpoint_package"
+license = "GPL"
+type = "library"
+src_folder = "./"
+
+[dependencies]
+github = []
+
+[build]
+arguments = ""
